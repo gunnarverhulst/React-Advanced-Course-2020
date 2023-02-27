@@ -15,10 +15,10 @@ const UseEffectBasics = () => {
   console.log('render component');
   return (
     <>
-    <h1>{value}</h1>
-    <button className='btn' onClick={() => setValue(value + 1)}>
-      new Messages
-    </button>
+      <h1>{value}</h1>
+      <button className='btn' onClick={() => setValue(value + 1)}>
+        new Messages
+      </button>
     </>
   );
 };
